@@ -1524,7 +1524,7 @@ PROBABILITY ``CLASS_IV``
 (*--------------------------------------------------------------------------------------------------*)
 
 PROBABILITY ``SUCCESS``
-``1 - ((1 − exp (-(23:real)/(100:real))) * exp (-(22:real)/(100:real)) * (1 − exp (-(16:real)/(100:real))) *
+  ``1 - ((1 − exp (-(23:real)/(100:real))) * exp (-(22:real)/(100:real)) * (1 − exp (-(16:real)/(100:real))) *
         (1 − exp (-(57:real)/(100:real))) * exp (-(21:real)/(100:real)) * exp (-(15:real)/(100:real)) * exp (-(21:real)/(100:real)) *
         (1 − exp (-(11:real)/(100:real))) +
         (1 − exp (-(23:real)/(100:real))) * exp (-(22:real)/(100:real)) * (1 − exp (-(16:real)/(100:real))) *
@@ -1564,8 +1564,7 @@ PROBABILITY ``SUCCESS``
         (1 − exp (-(21:real)/(100:real))  ) * exp (-(21:real)/(100:real)  ) * (1 − exp (-(15:real)/(100:real)  )) +
         (1 − exp (-(23:real)/(100:real)  )) * (1 − exp (-(22:real)/(100:real))  ) *
         (1 − exp (-(21:real)/(100:real))  ) * exp (-(21:real)/(100:real)  ) * (1 − exp (-(16:real)/(100:real)  ))
-+
-(1 − exp (-(42:real)/(100:real) )) * (1 − exp (-(57:real)/(100:real) )) * exp (-(57:real)/(100:real) ) *
+        + (1 − exp (-(42:real)/(100:real) )) * (1 − exp (-(57:real)/(100:real) )) * exp (-(57:real)/(100:real) ) *
          exp (-(21:real)/(100:real )) * exp (-(15:real)/(100:real) ) * exp (-(21:real)/(100:real) ) * (1 − exp (-(11:real)/(100:real) )) +
         (1 − exp (-(42:real)/(100:real) )) * (1 − exp (-(57:real)/(100:real) )) * exp (-(57:real)/(100:real) ) *
         exp (-(21:real)/(100:real )) * exp (-(15:real)/(100:real) ) * exp (-(21:real)/(100:real) ) * (1 − exp (-(12:real)/(100:real) )) +
@@ -1632,25 +1631,22 @@ PROBABILITY ``SUCCESS``
         (1 − exp (-(15:real)/(100:real) )) +
         (1 − exp (-(42:real)/(100:real) )) * (1 − exp (-(57:real)/(100:real) )) * exp (-(12:real)/(100:real) ) *
         exp (-(46:real)/(100:real) ) * (1 − exp (-(15:real)/(100:real ))) * exp (-(21:real)/(100:real) ) *
-        (1 − exp (-(16:real)/(100:real) ))
-+
-(1 - exp (-(12:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) * (1 - exp (-(11:real)/(100:real))) +
-    (1 - exp (-(12:real)/(100:real))) * (1 - exp (-(15:real)/(100:real)))  * exp (-(21:real)/(100:real)) * (1 - exp (-(12:real)/(100:real))) +
-    (1 - exp (-(12:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) * (1 - exp (-(15:real)/(100:real))) +
-    (1 - exp (-(12:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) * (1 - exp (-(16:real)/(100:real))) +
-    exp (-(12:real)/(100:real)) * (1 - exp (-(46:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) *
-    (1 - exp (-(11:real)/(100:real))) +
-    exp (-(12:real)/(100:real)) * (1 - exp (-(46:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) *
-    (1 - exp (-(12:real)/(100:real))) +
-    exp (-(12:real)/(100:real)) * (1 - exp (-(46:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) *
-    (1 - exp (-(15:real)/(100:real))) +
-    exp (-(12:real)/(100:real)) * (1 - exp (-(46:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) *
-    (1 - exp (-(16:real)/(100:real)))
-+
-  (1 − exp (-(21:real)/(100:real))) * (1 − exp (-(11:real)/(100:real))) +
-  (1 − exp (-(21:real)/(100:real))) * (1 − exp (-(12:real)/(100:real))) +
-  (1 − exp (-(21:real)/(100:real))) * (1 − exp (-(15:real)/(100:real))) +
-  (1 − exp (-(21:real)/(100:real))) * (1 − exp (-(16:real)/(100:real))))``;
+        (1 − exp (-(16:real)/(100:real) )) + (1 - exp (-(12:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) * 
+	(1 - exp (-(11:real)/(100:real))) +
+        (1 - exp (-(12:real)/(100:real))) * (1 - exp (-(15:real)/(100:real)))  * exp (-(21:real)/(100:real)) * (1 - exp (-(12:real)/(100:real))) +
+        (1 - exp (-(12:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) * (1 - exp (-(15:real)/(100:real))) +
+        (1 - exp (-(12:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) * (1 - exp (-(16:real)/(100:real))) +
+        exp (-(12:real)/(100:real)) * (1 - exp (-(46:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) *
+        (1 - exp (-(11:real)/(100:real))) +
+    	exp (-(12:real)/(100:real)) * (1 - exp (-(46:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) *
+    	(1 - exp (-(12:real)/(100:real))) +
+    	exp (-(12:real)/(100:real)) * (1 - exp (-(46:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) *
+    	(1 - exp (-(15:real)/(100:real))) +
+    	exp (-(12:real)/(100:real)) * (1 - exp (-(46:real)/(100:real))) * (1 - exp (-(15:real)/(100:real))) * exp (-(21:real)/(100:real)) *
+    	(1 - exp (-(16:real)/(100:real))) + (1 − exp (-(21:real)/(100:real))) * (1 − exp (-(11:real)/(100:real))) +
+  	(1 − exp (-(21:real)/(100:real))) * (1 − exp (-(12:real)/(100:real))) +
+  	(1 − exp (-(21:real)/(100:real))) * (1 − exp (-(15:real)/(100:real))) +
+  	(1 − exp (-(21:real)/(100:real))) * (1 − exp (-(16:real)/(100:real))))``;
 (*--------------------------------------------------------------------------------------------------*)
 (*--------------------------------------------------------------------------------------------------*)
 (*--------------------------------------------------------------------------------------------------*)

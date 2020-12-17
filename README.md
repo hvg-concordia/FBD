@@ -47,7 +47,7 @@ d) The tab “HOL”, at the top of Emacs bar, contains several shortcuts to int
 A more detail description of the Emacs HOL commands can be found in https://hol-theorem-prover.org/hol-mode.html.
 
 
-"-----------------------------------------  Installing ET Code ----------------------------------------------"
+"-----------------------------------------  Installing FBD Code ----------------------------------------------"
 
 To use the FBD theorems and mathematical formulations, load all the necessary files
 in the HOL4 shell as follows: 

@@ -68,8 +68,9 @@ in the HOL4 shell, the HOL4 will load this theorem directly for use without repr
 
 We applied our FBD theorems on a real-world application Nuclear Power Plant System to show the capability of 
 
-the FBD formal step-analysis to obtain a component-level reliability/failure expression easily.  
+the FBD formal step-analysis to obtain Complete/Partial failure and reliability expressions at the subsystem-level easily.  
 
+To load the file ==> press the tab “HOL" ==> Misc ==> Load file ==> Nuclear_Power_Plant_FBD.sml
 "----------------------------------------   Contacts ---------------------------------------------------------"
 
 Mohamed Abdelghany  (m_eldes@ece.concordia.ca)

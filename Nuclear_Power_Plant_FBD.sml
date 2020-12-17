@@ -1,5 +1,5 @@
 (* ========================================================================= *)
-(* File Name: Nuclear_Power_Plant_FBD.sml	          	                                     *)
+(* File Name: Nuclear_Power_Plant_FBD.sml	          	             *)
 (*---------------------------------------------------------------------------*)
 (*          Description: Formalization of Functional Block Diagrams in       *)
 (*                       Higher-order Logic                                  *)
